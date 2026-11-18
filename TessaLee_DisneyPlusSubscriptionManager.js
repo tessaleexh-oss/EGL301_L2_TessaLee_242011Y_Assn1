@@ -338,7 +338,7 @@ module.exports = {
                 price = plan.annualPrice;
             }
 
-            return `Subscription No.${id} for ${customerName} has been renewed successfully! New expiry date: ${subscription.expiryDate}. Renewal price: $${price.toFixed(2)}`;
+            return `Subscription No.${id} has been renewed successfully! New expiry date: ${subscription.expiryDate}. Renewal price: $${price.toFixed(2)}`;
 
         } catch (error) {
             console.log(error.message);

@@ -12,11 +12,16 @@ For some tips in formatting text in readme file, refer to https://docs.github.co
 # Function 1 - Create a new subscription
 When Function 1 is called, a new subscription will be created. The function will first check if the customer already has an existing subscription, if the subscription plan is vallid, and if the billing cycle is valid. If any of these parameters are invalid, a message will be returned to alert them which field was invalid. Upon successful creation, a success message will be returned.
 
+> Parameters needed:
+customerName, plan, billingCycle
+
 > How to call:
 console.log(manager.subscribeUser("Alex Tan", "Basic", "Monthly"));
 
 > Expected Outcome:
+New subscription for Alex Tan has been created
 
+# Function 2 - Change subscription plan
 
 
 # References
